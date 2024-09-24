@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hw3"
+version = "0.1.0"
+description = ""
+authors = ["insleker <bkinnightskytw@gmail.com>"]
+license = "MPL-2.0"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.1"
+pandas = "^2.2.3"
+xlrd = "^2.0.1"
+openpyxl = "^3.1.5"
+matplotlib = "^3.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
